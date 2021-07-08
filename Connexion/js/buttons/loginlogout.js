@@ -2,11 +2,8 @@ var logoutbutton = $('#logout_submit');
 logoutbutton.hide();
 var loginbutton = $('#submit');
 var registerButton= $('#registerButton');
-var SaveLoadOutput = $('#SaveLoadOutput');
 var logInForm = $('#logform');
 var formcontainer = $('#form_container');
-var multiplayersubmit = $('#multiplayer_submit');
-multiplayersubmit.hide();
 
 $("#logout_submit").click(function () {
 
@@ -40,7 +37,6 @@ $("#submit").click(function () {
 			registerButton.hide();
 			formcontainer.hide();
 			SaveLoadOutput.show();
-			multiplayersubmit.show();
 			logInForm.hide();
 			$("#username").val('');
 			$("#password").val('');
